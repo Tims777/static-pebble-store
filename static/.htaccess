@@ -1,0 +1,2 @@
+# Register .pbw file type
+AddType application/octet-stream .pbw

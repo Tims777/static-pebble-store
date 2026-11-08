@@ -1,0 +1,2 @@
+# All files below /api are JSON responses
+ForceType "application/json; charset=utf-8"

@@ -1,0 +1,15 @@
+{
+  "lock": false,
+  "imports": {
+    "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.3.1/"
+  },
+  "tasks": {
+    "lume": "deno run -A --env-file=.env lume/cli.ts",
+    "build": "deno task lume",
+    "serve": "deno task lume --serve",
+    "check": "deno check _config.ts store.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom", "dom.iterable", "esnext"]
+  }
+}
